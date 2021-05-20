@@ -1,0 +1,30 @@
+{
+  "name": "pv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "decorate": "prettier --single-quote --trailing-comma all --write *.{js, json}",
+    "start": "nodemon --inspect server.js",
+    "test": "node server.js"
+  },
+  "keywords": [],
+  "author": "Grey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoaxHoax-oops/MyFirstNodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HoaxHoax-oops/MyFirstNodejs/issues"
+  },
+  "homepage": "https://github.com/HoaxHoax-oops/MyFirstNodejs#readme",
+  "description": ""
+}
